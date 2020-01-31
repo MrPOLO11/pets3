@@ -1,0 +1,16 @@
+{
+  "name": "mrivera/328/hello",
+  "authors": [
+    {
+      "name": "Marcos Rivera",
+      "email": "mrivera22@mail.greenriver.edu"
+    },
+    {
+      "name": "Ekampreet Kaur",
+      "email": "ekaur@mail.greenriver.edu"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
