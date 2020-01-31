@@ -9,6 +9,9 @@ require("vendor/autoload.php");
 
 //Instantiate F3
 $f3 = Base::Instance();
+$f3->set('colors', array('pink', 'green', 'blue'));
+
+
 
 //Define a default route
 $f3->route("GET /", function (){
