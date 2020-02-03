@@ -12,6 +12,5 @@ function validColor($color)
 function validString($string)
 {
     global $f3;
-    return cytype_alpha($string);
-
+    return !empty($string) && ctype_alpha($string);
 }
