@@ -59,7 +59,7 @@ $f3->route("GET|POST /order", function($f3) {
 });
 
 $f3->route("GET|POST /order2", function($f3) {
-    var_dump($_POST);
+   // var_dump($_POST);
     if(isset($_POST['color'])) {
         $color = $_POST['color'];
         if(validColor($color)) {

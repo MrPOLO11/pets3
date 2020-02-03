@@ -7,6 +7,9 @@
 <body>
 <form method="post" action="#">
     <label for="color">Select an color</label>
+    <check if="{{ isset(@errors['color']) }}">
+        <p>{{ @errors['color'] }}</p>
+    </check>
     <select class="form-control" id="color" name="color">
      <!--   <option value="none">Select a color</option>
         <option value="white">White</option>
